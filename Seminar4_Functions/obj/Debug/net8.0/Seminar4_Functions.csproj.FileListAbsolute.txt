@@ -1,0 +1,15 @@
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.AssemblyInfoInputs.cache
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.AssemblyInfo.cs
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.csproj.CoreCompileInputs.cache
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.sourcelink.json
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\bin\Debug\net8.0\Seminar4_Functions.exe
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\bin\Debug\net8.0\Seminar4_Functions.deps.json
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\bin\Debug\net8.0\Seminar4_Functions.runtimeconfig.json
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\bin\Debug\net8.0\Seminar4_Functions.dll
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\bin\Debug\net8.0\Seminar4_Functions.pdb
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.dll
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\refint\Seminar4_Functions.dll
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.pdb
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\Seminar4_Functions.genruntimeconfig.cache
+C:\Users\НИКИТИН\OneDrive\Рабочий стол\GitGGB\HomeWorkGitHub\HomeWork\Seminar4_Functions\obj\Debug\net8.0\ref\Seminar4_Functions.dll
