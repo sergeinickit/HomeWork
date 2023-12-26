@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\НИКИТИН\\OneDrive\\Рабочий стол\\HomeWorkGitHub\\HomeWork\\Seminar3_Array\\Seminar3_Array.csproj",
+      "projectUniqueName": "C:\\Users\\НИКИТИН\\Desktop\\GitGB2\\HomeWorkGitHub2\\HomeWork\\Seminar3_Array\\Seminar3_Array.csproj",
       "projectName": "Seminar3_Array",
-      "projectPath": "C:\\Users\\НИКИТИН\\OneDrive\\Рабочий стол\\HomeWorkGitHub\\HomeWork\\Seminar3_Array\\Seminar3_Array.csproj",
+      "projectPath": "C:\\Users\\НИКИТИН\\Desktop\\GitGB2\\HomeWorkGitHub2\\HomeWork\\Seminar3_Array\\Seminar3_Array.csproj",
       "packagesPath": "C:\\Users\\НИКИТИН\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\НИКИТИН\\OneDrive\\Рабочий стол\\HomeWorkGitHub\\HomeWork\\Seminar3_Array\\obj\\",
+      "outputPath": "C:\\Users\\НИКИТИН\\Desktop\\GitGB2\\HomeWorkGitHub2\\HomeWork\\Seminar3_Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\НИКИТИН\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
