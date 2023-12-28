@@ -2,87 +2,93 @@
 
 // Пример:  a b c => “abcdef”
 //          d e f 
-using System.Data;
+// using System.Data;
 
-class Program
-{
-   static void Main()
-   {
-       char[,] charArray = GenerateRandomCharArray(3,3);
+// class Program
+// {
+//    static void Main()
+//    {
+//        char[,] charArray = GenerateRandomCharArray(3,3);
        
-       PrintCharArray(charArray);
+//        PrintCharArray(charArray);
 
-       string str = GetStringFromArrayChar(charArray);
-       Console.WriteLine(str + " ");
-   }
+//        string str = GetStringFromArrayChar(charArray);
+//        Console.WriteLine(str + " ");
+//    }
 
-    static char[,] GenerateRandomCharArray(int rows, int columns)
-    {
-        char[,] resultArray = new char[rows, columns];
-        Random random = new Random();
+//     static char[,] GenerateRandomCharArray(int rows, int columns)
+//     {
+//         char[,] resultArray = new char[rows, columns];
+//         Random random = new Random();
 
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < columns; j++)
-            {
-                char randomChar = (char)random.Next('a','z'+1);
-                resultArray[i,j] = randomChar;
-            }
-        }
-        return resultArray;
-    }
+//         for (int i = 0; i < rows; i++)
+//         {
+//             for (int j = 0; j < columns; j++)
+//             {
+//                 char randomChar = (char)random.Next('a','z'+1);
+//                 resultArray[i,j] = randomChar;
+//             }
+//         }
+//         return resultArray;
+//     }
 
-    static void PrintCharArray(char[,] charArray)
-    {
-        for (int i = 0; i < charArray.GetLength(0); i++)
-        {
-             for (int j = 0; j < charArray.GetLength(1); j++)
-             {
-                 Console.Write(charArray[i,j] + " ");
-             }
-             Console.WriteLine();
-        }
-    }
+//     static void PrintCharArray(char[,] charArray)
+//     {
+//         for (int i = 0; i < charArray.GetLength(0); i++)
+//         {
+//              for (int j = 0; j < charArray.GetLength(1); j++)
+//              {
+//                  Console.Write(charArray[i,j] + " ");
+//              }
+//              Console.WriteLine();
+//         }
+//     }
 
-    // static string GetStringFromArrayChar(char[,] charArray)      
-    // {
-    //     int rows = charArray.GetLength(0);
-    //     int columns = charArray.GetLength(1);
+//       static string GetStringFromArrayChar(char[,] charArray)      
+//     {
+//         int rows = charArray.GetLength(0);
+//         int columns = charArray.GetLength(1);
 
-    //     char[] elements = new char[rows * columns * 2 -1];        // Чтобы увеличить пробел между символами умножаем на 2
+//         char[] elements = new char[rows * columns];      
 
-    //     for (int i = 0; i < rows; i++)
-    //       {
-    //         for (int j = 0; j < columns; j++)
-    //         {
-    //             elements[i * (columns * 2 -1) + j * 2] = charArray[i,j];
+//         for (int i = 0; i < rows; i++)
+//           {
+//             for (int j = 0; j < columns; j++)
+//             {
+//                 elements[i * columns + j ] = charArray[i,j];
 
-    //             if(j < columns -1)                    // И еще вводится if, чтобы правильно вывести
-    //             {
-    //                 elements[i * (columns * 2 -1) + j * 2 +1] = ' ';    // Ну и формула ... = ' ';
-    //             }
-    //         }        
-    //       } 
-    //       string result = new string(elements);
-    //       return result;
-    // } 
+//             }        
+//           } 
+//           string result = new string(elements);
+//           return result;
+//     } 
+// } 
 
-      static string GetStringFromArrayChar(char[,] charArray)      
-    {
-        int rows = charArray.GetLength(0);
-        int columns = charArray.GetLength(1);
 
-        char[] elements = new char[rows * columns];      
+// Задача 2: Задайте строку, содержащую латинские буквы в обоих регистрах. Сформируйте строку, в которой все заглавные буквы заменены на строчные.
 
-        for (int i = 0; i < rows; i++)
-          {
-            for (int j = 0; j < columns; j++)
-            {
-                elements[i * columns + j ] = charArray[i,j];
+// Пример:   “aBcD1ef!-” => “abcd1ef!-”
 
-            }        
-          } 
-          string result = new string(elements);
-          return result;
-    } 
+string inputString = "'A','f','b','M','c','z','F'";  
+ string str = "";                                    
+
+string GetStringFromArrayChar()     
+{
+  string result="";                 
+  for (int i = 0; i < inputString.Length; i++)    
+  {
+     result = result + inputString[i];    
+  }
+  return result;                   
+}
+str = GetStringFromArrayChar();    
+System.Console.WriteLine(str);
+
+string lowerCaseString = ToLowerCase(inputString);    
+
+Console.WriteLine(lowerCaseString);
+
+string ToLowerCase(string input)          
+{
+    return input.ToLower();
 }
