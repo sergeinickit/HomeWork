@@ -101,10 +101,10 @@
 //           “шалаш” => Да
 //           “55655” => Да
 
-Console.Write("Введите слово: ");      // Запрос у пользователя
-// #pragma warning disable CS8600 // Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
-string str = Console.ReadLine();       // Чтение введенной строки
-// #pragma warning restore CS8600 // Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
+Console.Write("Введите слово: ");      
+
+string str = Console.ReadLine();       
+
 if(IsPalindrome(str))
 {
   Console.WriteLine("Да");
@@ -113,30 +113,29 @@ else
 {
   Console.WriteLine("Нет");
 }
+                
+char[] elemtnts = new char [str.Length];                                   
 
-// Console.WriteLine(str);                // Вывод строки
-char[] elemtnts = new char [str.Length];                                     // Создаем прерменную
-
-string GetStringFromArrayChar()     // Если нужен результат, который будем возвращать и передовать дальше заводим string
+string GetStringFromArrayChar()  
 {
-  string result="";                 // Создаем переменную типа string (пока пустая)
-  for (int i = 0; i < elemtnts.Length; i++)    // Заполняем переменную
+  string result="";                 
+  for (int i = 0; i < elemtnts.Length; i++)    
   {
-     result = result + elemtnts[i];   // В переменную str записываем каждый элеменет массива elemets[]  
+     result = result + elemtnts[i];    
   }
-  return result;                   // Наша функция сработала и её результатом будет result
+  return result;                 
 }
-str = GetStringFromArrayChar();    // Заполняем тем, что получилось в нашей функции str = и дальше выводим
+str = GetStringFromArrayChar();    
 System.Console.WriteLine();
 
-bool IsPalindrome(string str)       // Функция для прверки, является ли строка палиндромом
+bool IsPalindrome(string str)      
 {
-  str = str.ToLower();              // Приведение строки к нижнему регистру для учета регистра букв
+  str = str.ToLower();              
 
-  str = str.Replace(" ","");        // Удаление пробелов из строки
+  str = str.Replace(" ","");        
 
-  string reversed = new string(str.ToCharArray().Reverse().ToArray());      // Создание обратной копии строки
+  string reversed = new string(str.ToCharArray().Reverse().ToArray());      
 
-  return str == reversed;           // Сравнение исходной строки с ее обратной копией
+  return str == reversed;           
 }
 
