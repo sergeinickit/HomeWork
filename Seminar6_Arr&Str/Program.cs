@@ -69,26 +69,26 @@
 
 // Пример:   “aBcD1ef!-” => “abcd1ef!-”
 
-string inputString = "'A','f','b','M','c','z','F'";  
- string str = "";                                    
+// string inputString = "'A','f','b','M','c','z','F'";  
+//  string str = "";                                    
 
-string GetStringFromArrayChar()     
-{
-  string result="";                 
-  for (int i = 0; i < inputString.Length; i++)    
-  {
-     result = result + inputString[i];    
-  }
-  return result;                   
-}
-str = GetStringFromArrayChar();    
-System.Console.WriteLine(str);
+// string GetStringFromArrayChar()     
+// {
+//   string result="";                 
+//   for (int i = 0; i < inputString.Length; i++)    
+//   {
+//      result = result + inputString[i];    
+//   }
+//   return result;                   
+// }
+// str = GetStringFromArrayChar();    
+// System.Console.WriteLine(str);
 
-string lowerCaseString = ToLowerCase(inputString);    
+// string lowerCaseString = ToLowerCase(inputString);    
 
-Console.WriteLine(lowerCaseString);
+// Console.WriteLine(lowerCaseString);
 
-string ToLowerCase(string input)          
-{
-    return input.ToLower();
-}
+// string ToLowerCase(string input)          
+// {
+//     return input.ToLower();
+// }
